@@ -2,6 +2,8 @@
 
 Typescript version of the [alpha-shape](https://www.npmjs.com/package/alpha-shape) package created by [Mikola Lysenko](https://github.com/mikolalysenko).
 
+Forked from [alpha-shape repo](https://github.com/mikolalysenko/alpha-shape).
+
 Computes the [alpha shape](http://en.wikipedia.org/wiki/Alpha_shape) of a point set.
 
 [Try a demo right now](https://mikolalysenko.github.io/alpha-shape/index.html)
