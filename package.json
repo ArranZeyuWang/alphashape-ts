@@ -33,7 +33,7 @@
     "email": "https://github.com/ArranZeyuWang"
   },
   "bugs": {
-    "url": "https://github.com/mikolalysenko/alpha-shape/issues"
+    "url": "https://github.com/ArranZeyuWang/alphashape-ts/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -46,7 +46,7 @@
     "canvas-fit": "^1.2.0",
     "mouse-change": "^1.1.1"
   },
-  "homepage": "https://github.com/mikolalysenko/alpha-shape",
+  "homepage": "https://github.com/ArranZeyuWang/alphashape-ts",
   "keywords": [
     "alpha",
     "shape",
@@ -63,7 +63,7 @@
   "name": "alphashape-ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikolalysenko/alpha-shape.git"
+    "url": "git+https://github.com/ArranZeyuWang/alphashape-ts.git"
   },
   "scripts": {
     "test": "tape test/*.js"
