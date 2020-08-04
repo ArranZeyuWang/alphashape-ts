@@ -1,5 +1,7 @@
-alpha-shape
-===========
+# alphashape-ts
+
+Typescript version of the [alpha-shape](https://www.npmjs.com/package/alpha-shape) package created by [Mikola Lysenko](https://github.com/mikolalysenko).
+
 Computes the [alpha shape](http://en.wikipedia.org/wiki/Alpha_shape) of a point set.
 
 [Try a demo right now](https://mikolalysenko.github.io/alpha-shape/index.html)
@@ -9,16 +11,16 @@ Computes the [alpha shape](http://en.wikipedia.org/wiki/Alpha_shape) of a point 
 # Example
 
 ```javascript
-var alphaShape = require('alpha-shape')
+var alphaShape = require("alpha-shape");
 
-var points = []
-for(var i=0; i<10; ++i) {
-  points.push([Math.random(), Math.random()])
+var points = [];
+for (var i = 0; i < 10; ++i) {
+  points.push([Math.random(), Math.random()]);
 }
 
-var cells = alphaShape(0.1, points)
+var cells = alphaShape(0.1, points);
 
-console.log(cells)
+console.log(cells);
 ```
 
 # Install
@@ -30,12 +32,25 @@ npm i alpha-shape
 # API
 
 #### `var cells = require('alpha-shape')(alpha, points)`
+
 Computes the alpha shape of a point set
 
-* `alpha` is alpha parameter for the shape
-* `points` is a set of points in some dimension
+- `alpha` is alpha parameter for the shape
+- `points` is a set of points in some dimension
 
 **Returns** The alpha shape of the point set
 
 # License
-(c) 2015 Mikola Lysenko. MIT License
+
+[alphashape-ts](https://www.npmjs.com/package/alphashape-ts)
+
+Created by Zeyu Wang. MIT License
+
+# Credits
+
+[alpha-shape](https://www.npmjs.com/package/alpha-shape)
+
+Copyright (C) 2015 Mikola Lysenko. MIT License
+
+
+
