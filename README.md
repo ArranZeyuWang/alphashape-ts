@@ -1,8 +1,8 @@
 # alphashape-ts
 
-Typescript version of the [alpha-shape](https://www.npmjs.com/package/alpha-shape) package created by [Mikola Lysenko](https://github.com/mikolalysenko).
+Typescript version of the [alpha-shape](https://www.npmjs.com/package/alpha-shape) package.
 
-Forked from [alpha-shape repo](https://github.com/mikolalysenko/alpha-shape).
+Forked from [alpha-shape repo](https://github.com/mikolalysenko/alpha-shape) created by [Mikola Lysenko](https://github.com/mikolalysenko).
 
 Computes the [alpha shape](http://en.wikipedia.org/wiki/Alpha_shape) of a point set.
 
